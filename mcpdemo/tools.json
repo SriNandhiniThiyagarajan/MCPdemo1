@@ -1,0 +1,25 @@
+{
+    "mcpServers": {
+      "airbnb": {
+        "command": "npx",
+        "args": ["-y", "@openbnb/mcp-server-airbnb", "--ignore-robots-txt"]
+      },
+      "playwright": {
+        "command": "npx",
+        "args": ["@playwright/mcp@latest"]
+      },
+      "ddg-search": {
+        "command": "uvx",
+        "args": ["duckduckgo-mcp-server"]
+      },
+      "shopify-dev-mcp": {
+        "command": "npx",
+        "args": ["-y", "@shopify/dev-mcp@latest"]
+      },
+      "mcp-postgres": {
+        "command": "npx",
+        "args": ["postgres-mcp", "--host", "localhost", "--port", "5432", "--database", "your_database", "--user", "your_user", "--password", "your_password"]
+      }
+    }
+  }
+  
